@@ -11,7 +11,7 @@
 
 <style>
     .title-card {
-        background-color: #007052;
+        background-image: linear-gradient(#E7CCCC,#EDE8DC, #A5B68D, #C1CFA1);
         height: 100vh;
         display: flex;
         justify-content: center;

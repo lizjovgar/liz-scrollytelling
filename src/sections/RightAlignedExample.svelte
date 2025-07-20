@@ -5,76 +5,35 @@
     import Scroller from "../lib/Scroller.svelte";
     import ArticleText from "../lib/ArticleText.svelte";
 
-    let options = {
-        chart: {
-            type: "pie",
-        },
-        title: {
-            text: "An Example Pie Chart",
-        },
-        plotOptions: {
-            pie: {
-                allowPointSelect: true,
-                dataLabels: [
-                    {
-                        enabled: true,
-                        distance: 20,
-                    },
-                    {
-                        enabled: true,
-                        distance: -40,
-                        format: "{point.percentage:.1f}%",
-                        style: {
-                            fontSize: "1.2em",
-                            textOutline: "none",
-                        },
-                        filter: {
-                            operator: ">",
-                            property: "percentage",
-                            value: 10,
-                        },
-                    },
-                ],
-            },
-        },
-        series: [
-            {
-                name: "Group",
-                data: [
-                    {
-                        name: "Group 1",
-                        y: 151,
-                    },
-                    {
-                        name: "Group 2",
-                        sliced: true,
-                        selected: true,
-                        y: 180,
-                    },
-                    {
-                        name: "Group 3",
-                        y: 32,
-                    },
-                    {
-                        name: "Group 4",
-                        y: 103,
-                    },
-                    {
-                        name: "Group 5",
-                        y: 77,
-                    },
-                ],
-            },
-        ],
-    };
+
+    let degreeData = "https://i.imgur.com/KiveTII.png"; 
+    let debtData = "https://i.imgur.com/fza5KDE.png";
+
+
 </script>
 
+
+
+
+
 <div>
+    
+
     <Scroller layout="right">
         {#snippet sticky()}
-            <div class="chart">
-                <Chart {options} highcharts={Highcharts} />
-            </div>
+            <p>
+            <br><br><br><br><br><br>
+            </p>
+
+            <img src={degreeData} alt="STEM vs. non STEM Employment Rates among female hispanics" class="chartImg" />
+
+            <p>The chart above illustrates </p>
+
+            <img src={debtData} alt="Median total debt for households" class="chartImg" />
+
+
+
+
             <p>
                 Here's an example chart using
                 <a href="https://www.highcharts.com/">Highcharts</a>!
@@ -142,4 +101,13 @@
         width: 90%;
         margin: 0px auto;
     }
+
+
+    .chartImg {
+    display: block;
+    max-width: 90%;
+    margin: 1px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }   
 </style>
