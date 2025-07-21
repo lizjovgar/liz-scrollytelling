@@ -6,7 +6,6 @@
     <div class="content">
         <h1>{title}</h1>
         <h2>{subtitle}</h2>
-        <p>{madeBy}</p>
     </div>
 </div>
 
@@ -48,13 +47,7 @@
         font-family: Gelasio;
     }
 
-    p {
-        font-size: .8rem;
-        color: #f7f5eb;
-        margin-top: 1rem;
-        font-family: Gelasio;
-    }
-
+   
     @media (max-width: 600px) {
         h1 {
             font-size: 2.2rem;
