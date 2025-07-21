@@ -16,7 +16,10 @@
         {#snippet scrolly()}
             <ArticleText>
                 <strong>
-                    Through the !
+                    As a Latina currently in a STEM major, I am curious to learn 
+                    more about what might be preventing Hispanic women 
+                    from entering the STEM job field, even after earning their 
+                    degree.
                 </strong>
             </ArticleText>
 

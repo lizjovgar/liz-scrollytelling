@@ -70,15 +70,12 @@
                      </strong>
             </ArticleText>
 
-            <ArticleText>
-                This mismatch creates a double-bind: high educational investment 
-                (and associated debt), but limited access to high-paying roles 
+            <ArticleText><strong>
+                This mismatch brings out the Harsh reality for Latinas in STEM: 
+                They go for the high educational investment 
+                (which for most is associated with debt), but have limited access to high-paying roles 
                 that would make that investment sustainable.
-                
-                As a Latina currently in a STEM major, I am curious to learn 
-                more about what might be preventing Hispanic women 
-                from entering the STEM job field, even after earning their 
-                degree.
+            </strong>
 
             </ArticleText>
 

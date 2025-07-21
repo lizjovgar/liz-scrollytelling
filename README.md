@@ -1,4 +1,12 @@
+Resourses:
+-BDWC for data (screenshots on site)
+
+-Used Chat GPT to better understand how to include images and as a guide when my image was not appearing as desired
+
+-Si Se Puede art: https://media.licdn.com/dms/image/v2/D4E22AQE0XkpXA6CPzA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1685726352513?e=2147483647&v=beta&t=jh0ED1gO9tAAfj9RorFRxpxf_gEEZLfFQ6BpZ6iZaeY
+
 # KWK Scrollytelling template
+
 
 This template is a starting point / example of how to create a scrollytelling piece using Svelte and Highcharts! 
 
