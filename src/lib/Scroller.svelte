@@ -45,6 +45,7 @@
         display: flex;
         flex-direction: column;
         flex: 1 1; /* Allows growing, shrinking */
+        font-family: Gelasio;
     }
 
     .sticky {

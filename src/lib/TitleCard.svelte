@@ -1,11 +1,12 @@
 <script>
-    let { title, subtitle } = $props();
+    let { title, subtitle, madeBy } = $props();
 </script>
 
 <div class="title-card">
     <div class="content">
         <h1>{title}</h1>
-        <p>{subtitle}</p>
+        <h2>{subtitle}</h2>
+        <p>{madeBy}</p>
     </div>
 </div>
 
@@ -36,12 +37,22 @@
         margin: 0;
         color: #df949d;
         text-shadow: 1px 1px 0 	#e3bbbd;
+        font-family: Gelasio;
+    }
+
+
+    h2 {
+        font-size: 1.5rem;
+        color: #f7f5eb;
+        margin-top: 1rem;
+        font-family: Gelasio;
     }
 
     p {
-        font-size: 1.3rem;
+        font-size: .8rem;
         color: #f7f5eb;
         margin-top: 1rem;
+        font-family: Gelasio;
     }
 
     @media (max-width: 600px) {

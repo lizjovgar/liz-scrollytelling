@@ -31,7 +31,7 @@
 
             <img class="chartImg" src={degreeData} alt="STEM vs. non STEM Employment Rates among female hispanics" />
 
-            <p>STEM vs. non-STEM Employment Rates Among 25-34 Year Olds with a STEM Degree </p>
+            <p><b>STEM vs. non-STEM Employment Rates Among 25-34 Year Olds with a STEM Degree </b></p>
 
 
 
@@ -44,7 +44,7 @@
 
             <img class="chartImg"  src={debtData} alt="Median total debt for households" />
 
-            <p>Median Total Debt for Households. by Race/Ethnicity</p>
+            <p><b>Median Total Debt for Households, by Race/Ethnicity</b></p>
 
 
 
@@ -64,14 +64,14 @@
 
             <ArticleText>
                 <strong>Following the first insight, I came across the chart that depicts Hispanic women
-                    holding the highest debt in comparison to other women in different racial groups. Both data
+                    holding the highest debt in 2022 in comparison to other women in different racial groups. Both data
                     sets combined, this can indicate possible systemic barrier for Latinas when it comes to 
                     the economic return of education.
                      </strong>
             </ArticleText>
 
             <ArticleText><strong>
-                This mismatch brings out the Harsh reality for Latinas in STEM: 
+                This mismatch brings out the harsh reality for Latinas in STEM: 
                 They go for the high educational investment 
                 (which for most is associated with debt), but have limited access to high-paying roles 
                 that would make that investment sustainable.
