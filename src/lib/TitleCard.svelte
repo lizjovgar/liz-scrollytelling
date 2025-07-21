@@ -1,5 +1,5 @@
 <script>
-    let { title, subtitle, madeBy } = $props();
+    let { title, subtitle} = $props();
 </script>
 
 <div class="title-card">
@@ -53,8 +53,5 @@
             font-size: 2.2rem;
         }
 
-        p {
-            font-size: 1.1rem;
-        }
     }
 </style>

@@ -9,8 +9,5 @@
   <TitleSection />
   <RightAlignedExample />
   <ImageExample />
-
   <IntersectionObserverSectionCard />
-
-
 </main>

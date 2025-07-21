@@ -6,4 +6,4 @@
     const madeBy = "Created By: Lizbeth Jovanna"
 </script>
 
-<TitleCard {title} {subtitle} {madeBy}/>
+<TitleCard {title} {subtitle}/>
