@@ -22,9 +22,11 @@
     <Scroller layout="right">
         {#snippet sticky()}
             <p>
-            <br><br><br><br><br><br>
+            <br><br><br><br><br><br><br>
             </p>
 
+
+            <h3>Data Collected by BWDC:</h3>
             <img class="chartImg" src={degreeData} alt="STEM vs. non STEM Employment Rates among female hispanics" />
 
             <p>STEM vs. non-STEM Employment Rates Among 25-34 Year Olds with a STEM Degree </p>
@@ -36,15 +38,7 @@
 
 
 
-            <p>
-                Here's an example chart using
-                <a href="https://www.highcharts.com/">Highcharts</a>!
-            </p>
-            <p>
-                📈 <strong>Highcharts</strong> is a super-flexible library for
-                creating all kinds of charts. See demos of different chart types
-                <a href="https://www.highcharts.com/demo">here</a>.
-            </p>
+    
             <p>
                 Since we're using Highcharts through Svelte, the syntax is a
                 little different from what you might see in the demos. But all
@@ -72,13 +66,19 @@
 
         {#snippet scrolly()}
             <ArticleText>
-                <strong>Welcome to the KWK Data Scrollytelling Template!</strong
-                >
+                <strong> While exploring the BWDC site, I found it interesting 
+                    that in both 2019 and 2021, Hispanic females with STEM 
+                    degrees had some of the lowest rates of STEM employment 
+                    (24.9% and 26.4% respectively) compared to other racial 
+                    and gender groups.
+                </strong>
             </ArticleText>
 
             <ArticleText>
-                This is a <strong>basic example</strong> of how you might create
-                a scrollytelling piece using Svelte and Highcharts.
+                As a female Hispanic in a STEM major, I am curious to learn 
+                more about what barriers might be preventing Hispanic women 
+                from entering the STEM job field, even after earning their 
+                degree.
             </ArticleText>
 
             <ArticleText>
