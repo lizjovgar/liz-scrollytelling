@@ -13,9 +13,9 @@
 <main>
   <TitleSection />
   <RightAlignedExample />
-  <LeftAlignedExample />
   <ImageExample />
 
   <IntersectionObserverSectionCard />
+
 
 </main>

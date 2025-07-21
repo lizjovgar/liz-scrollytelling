@@ -8,7 +8,8 @@
 
     let degreeData = "https://i.imgur.com/bxiacMI.png"; 
     let debtData = "https://i.imgur.com/EI1XNW2.png";
-
+    let latinasInStem = "https://moirastudio.com/wp-content/uploads/2024/03/Latinas-in-stem_Blog-Thumbnail.jpg";
+    let siSePuede = "https://media.licdn.com/dms/image/v2/D4E22AQE0XkpXA6CPzA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1685726352513?e=2147483647&v=beta&t=jh0ED1gO9tAAfj9RorFRxpxf_gEEZLfFQ6BpZ6iZaeY";
 
 </script>
 
@@ -21,43 +22,30 @@
 
     <Scroller layout="right">
         {#snippet sticky()}
-            <p>
-            <br><br><br><br><br><br><br>
-            </p>
+
+            <h3>
+                Data Insights:
+                
+            </h3>
 
 
-            <h3>Data Collected by BWDC:</h3>
             <img class="chartImg" src={degreeData} alt="STEM vs. non STEM Employment Rates among female hispanics" />
 
             <p>STEM vs. non-STEM Employment Rates Among 25-34 Year Olds with a STEM Degree </p>
+
+
+
+            <p>
+                <br>
+            </p>
+
+
+
 
             <img class="chartImg"  src={debtData} alt="Median total debt for households" />
 
             <p>Median Total Debt for Households. by Race/Ethnicity</p>
 
-
-
-
-    
-            <p>
-                Since we're using Highcharts through Svelte, the syntax is a
-                little different from what you might see in the demos. But all
-                of Highcharts' functionality is available through the Highcharts
-                for Svelte package.
-            </p>
-            <p>
-                The configuration is done through the
-                <code>options</code> json object passed to the chart, which you'll
-                see in the source code for this template.
-            </p>
-            <p>
-                Use the
-                <a href="https://api.highcharts.com/highcharts/"
-                    >API reference</a
-                >
-                to understand what each element in the <code>options</code> object
-                does.
-            </p>
 
 
         {/snippet}
@@ -66,7 +54,7 @@
 
         {#snippet scrolly()}
             <ArticleText>
-                <strong> While exploring the BWDC site, I found it interesting 
+                <strong> While exploring the BWDC site, it caught my attention 
                     that in both 2019 and 2021, Hispanic females with STEM 
                     degrees had some of the lowest rates of STEM employment 
                     (24.9% and 26.4% respectively) compared to other racial 
@@ -75,29 +63,25 @@
             </ArticleText>
 
             <ArticleText>
-                <strong>As a Hispanic female currently in a STEM major, I became curious to learn 
-                more about what barriers might be preventing Hispanic women 
+                <strong>Following the first insight, I came across the chart that depicts Hispanic women
+                    holding the highest debt in comparison to other women in different racial groups. Both data
+                    sets combined, this can indicate possible systemic barrier for Latinas when it comes to 
+                    the economic return of education.
+                     </strong>
+            </ArticleText>
+
+            <ArticleText>
+                This mismatch creates a double-bind: high educational investment 
+                (and associated debt), but limited access to high-paying roles 
+                that would make that investment sustainable.
+                
+                As a Latina currently in a STEM major, I am curious to learn 
+                more about what might be preventing Hispanic women 
                 from entering the STEM job field, even after earning their 
-                degree. </strong>
+                degree.
+
             </ArticleText>
 
-            <ArticleText>
-                Follwoing the first imsight, I came across the chart that depicts Hispanic women
-                holding the highest debt in comparison to other women in different racial groups.
-                <br /><br />
-                Or, if you want to build something from scratch, you can use it as
-                a <strong>reference</strong> for specific functionality.
-            </ArticleText>
-
-            <ArticleText>
-                This is <strong>just one way</strong> that scrollytelling can
-                look.
-                <br /><br />
-                <strong>
-                    If you use this template, be sure to modify it and make it
-                    your own!
-                </strong>
-            </ArticleText>
         {/snippet}
     </Scroller>
 </div>

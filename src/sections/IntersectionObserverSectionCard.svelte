@@ -2,10 +2,9 @@
     import TitleCard from "../lib/TitleCard.svelte";
 
     const title =
-        "BWDC";
+        "Thank you BWDC";
     const subtitle =
-        "Be sure to read through the text on this page and also " +
-        "poke around in the code to fully understand how they work!";
+        "All data was provided by Black Wealth Data Center. BDWC makes it simple to access national and county-level data that provides insights on how wealth is impacted by different factors like education, employment, asset ownership, and other indicators. ";
 </script>
 
 <TitleCard {title} {subtitle} />
