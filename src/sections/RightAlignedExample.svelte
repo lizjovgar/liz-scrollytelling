@@ -75,15 +75,15 @@
             </ArticleText>
 
             <ArticleText>
-                As a female Hispanic in a STEM major, I am curious to learn 
+                <strong>As a Hispanic female currently in a STEM major, I became curious to learn 
                 more about what barriers might be preventing Hispanic women 
                 from entering the STEM job field, even after earning their 
-                degree.
+                degree. </strong>
             </ArticleText>
 
             <ArticleText>
-                You can use this template as a <strong>starting point</strong>
-                for your project.
+                Follwoing the first imsight, I came across the chart that depicts Hispanic women
+                holding the highest debt in comparison to other women in different racial groups.
                 <br /><br />
                 Or, if you want to build something from scratch, you can use it as
                 a <strong>reference</strong> for specific functionality.
