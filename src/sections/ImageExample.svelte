@@ -23,10 +23,13 @@
                 </strong>
             </ArticleText>
 
-            <ArticleText>Though there are low employment rates in the STEM field for Hispanic women, 
-                they still saw about a 2% increase between the years 2019 and 2021. this goes to show 
+            <ArticleText><strong>
+                Though there are low employment rates in the STEM field for Hispanic women, 
+                they still saw about a 2% increase between the years 2019 and 2021. This goes to show 
                 that even with barriers in their way at times, Latinas are determined in paving their 
-                ways into  STEM careers.</ArticleText>
+                ways into  STEM careers.
+                </strong>
+            </ArticleText>
         {/snippet}
     </Scroller>
 </div>

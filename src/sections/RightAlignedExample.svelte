@@ -65,7 +65,7 @@
             <ArticleText>
                 <strong>Following the first insight, I came across the chart that depicts Hispanic women
                     holding the highest debt in 2022 in comparison to other women in different racial groups. Both data
-                    sets combined, this can indicate possible systemic barrier for Latinas when it comes to 
+                    sets combined, this can indicate possible systemic barriers for Latinas when it comes to 
                     the economic return of education.
                      </strong>
             </ArticleText>
