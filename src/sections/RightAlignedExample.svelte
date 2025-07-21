@@ -6,8 +6,8 @@
     import ArticleText from "../lib/ArticleText.svelte";
 
 
-    let degreeData = "https://i.imgur.com/KiveTII.png"; 
-    let debtData = "https://i.imgur.com/fza5KDE.png";
+    let degreeData = "https://i.imgur.com/bxiacMI.png"; 
+    let debtData = "https://i.imgur.com/EI1XNW2.png";
 
 
 </script>
@@ -25,11 +25,13 @@
             <br><br><br><br><br><br>
             </p>
 
-            <img src={degreeData} alt="STEM vs. non STEM Employment Rates among female hispanics" class="chartImg" />
+            <img class="chartImg" src={degreeData} alt="STEM vs. non STEM Employment Rates among female hispanics" />
 
-            <p>The chart above illustrates </p>
+            <p>STEM vs. non-STEM Employment Rates Among 25-34 Year Olds with a STEM Degree </p>
 
-            <img src={debtData} alt="Median total debt for households" class="chartImg" />
+            <img class="chartImg"  src={debtData} alt="Median total debt for households" />
+
+            <p>Median Total Debt for Households. by Race/Ethnicity</p>
 
 
 
@@ -62,7 +64,11 @@
                 to understand what each element in the <code>options</code> object
                 does.
             </p>
+
+
         {/snippet}
+
+        
 
         {#snippet scrolly()}
             <ArticleText>

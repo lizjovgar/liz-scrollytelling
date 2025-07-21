@@ -16,10 +16,10 @@
 
 <style>
     .wrapper {
-        background-color: #f7f5eb;
+        background-color: #e3bbbd;
         padding: min(100vh, 30rem) 1rem;
         border-style: solid;
-        border-color: #4096fa;
+        border-color: #6f5e4f91;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;

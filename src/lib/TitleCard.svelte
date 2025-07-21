@@ -11,7 +11,7 @@
 
 <style>
     .title-card {
-        background-image: linear-gradient(#E7CCCC,#EDE8DC, #A5B68D, #C1CFA1);
+        background-image: linear-gradient(#E7CCCC,#EDE8DC, #C1CFA1);
         height: 100vh;
         display: flex;
         justify-content: center;
@@ -24,18 +24,18 @@
 
     .content {
         max-width: 700px;
-        background-color: #034c36;
+        background-color:#6f5e4f;
         padding: 2rem;
-        border: 6px solid #e3ff00;
+        border: 6px solid #df949d;
         border-radius: 2rem;
-        box-shadow: 16px 16px #188f70;
+        box-shadow: 16px 16px #6f5e4f91;
     }
 
     h1 {
         font-size: 3rem;
         margin: 0;
-        color: #e3ff00;
-        text-shadow: 1px 1px 0 #007052;
+        color: #df949d;
+        text-shadow: 1px 1px 0 	#e3bbbd;
     }
 
     p {
